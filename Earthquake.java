@@ -17,9 +17,9 @@ public class Earthquake {
    * Gets a description of the effect of the earthquake.
    * 
    * @return the description of the effect
-   */
+   */ String r;
   public String getDescription() {
-    String r;
+   
     if (richter >= 0) // Tests in wrong order
       r = "Generally not felt by people";
     else if (richter >= 3.5)
@@ -32,7 +32,6 @@ public class Earthquake {
       r = "Many buildings destroyed";
     else if (richter >= 8.0)
       r = "Most structures fall";
-
-    return r;
+      return r;
   }
 }
