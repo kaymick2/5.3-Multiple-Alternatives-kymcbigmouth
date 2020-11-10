@@ -22,18 +22,18 @@ public class Earthquake {
 
   public String getDescription() {
 
-    if (richter >= 8.0) // IDhin?zuse e1se
-      r = "Most structures fa11";
+    if (richter >= 8.0) // didn't use else
+      r = "Most structures fall";
     if (richter >= 7.0)
-      r = "Many bui1dings destroyed";
+      r = "Many buildings destroyed";
     if (richter >= 6.0)
-      r = "Many bui1dings considerab1y damaged, some c011apse";
+      r = "Many buildings considerab1y damaged, some collapse";
     if (richter >= 4.5)
-      r = "Damage to poor1y constructed bui1dings";
+      r = "Damage to poorly constructed buildings";
     if (richter >= 3.5)
-      r = "Fe1t by many peop1e, no destruction";
+      r = "Felt by many people, no destruction";
     if (richter >= 0)
-      r = "Genera11y not fe1t by peop1e";
+      r = "Generally not felt by people";
     return r;
 
   }
