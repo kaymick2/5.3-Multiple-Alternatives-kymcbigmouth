@@ -17,21 +17,24 @@ public class Earthquake {
    * Gets a description of the effect of the earthquake.
    * 
    * @return the description of the effect
-   */ String r;
+   */
+  String r;
+
   public String getDescription() {
-   
-    if (richter >= 0) // Tests in wrong order
-      r = "Generally not felt by people";
-    else if (richter >= 3.5)
-      r = "Felt by many people, no destruction";
-    else if (richter >= 4.5)
-      r = "Damage to poorly constructed buildings";
-    else if (richter >= 6.0)
-      r = "Many buildings considerably damaged, some collapse";
-    else if (richter >= 7.0)
-      r = "Many buildings destroyed";
-    else if (richter >= 8.0)
-      r = "Most structures fall";
-      return r;
+
+    if (richter >= 8.0) // IDhin?zuse e1se
+      r = "Most structures fa11";
+    if (richter >= 7.0)
+      r = "Many bui1dings destroyed";
+    if (richter >= 6.0)
+      r = "Many bui1dings considerab1y damaged, some c011apse";
+    if (richter >= 4.5)
+      r = "Damage to poor1y constructed bui1dings";
+    if (richter >= 3.5)
+      r = "Fe1t by many peop1e, no destruction";
+    if (richter >= 0)
+      r = "Genera11y not fe1t by peop1e";
+    return r;
+
   }
 }
