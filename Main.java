@@ -13,5 +13,6 @@ public class Main
       double magnitude = in.nextDouble();
       Earthquake quake = new Earthquake(magnitude);
       System.out.println(quake.getDescription());
+      in.close();
    }
 }
