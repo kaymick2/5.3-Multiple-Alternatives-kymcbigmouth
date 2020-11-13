@@ -11,9 +11,10 @@ public class Main {
     double magnitude = in.nextDouble();
     Earthquake quake = new Earthquake(magnitude);
     System.out.println(quake.getDescription());
-    in.close();
-/**
-tax program. it does tax return stuff. */
+    
+    /**
+     * tax program. it does tax return stuff.
+     */
 
     Scanner in2 = new Scanner(System.in);
 
