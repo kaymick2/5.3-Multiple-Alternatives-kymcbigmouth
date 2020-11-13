@@ -13,7 +13,7 @@ public class Earthquake {
     richter = magnitude;
   }
 
-  /**
+  /** 
    * Gets a description of the effect of the earthquake.
    * 
    * @return the description of the effect
