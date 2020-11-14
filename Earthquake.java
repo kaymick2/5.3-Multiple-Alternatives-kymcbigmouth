@@ -5,7 +5,8 @@ public class Earthquake {
   private double richter;
 
   /**
-   * Constructs an Earthquake object.
+   * Constructs an
+   Earthquake object.
    * 
    * @param magnitude the magnitude on the Richter scale
    */
